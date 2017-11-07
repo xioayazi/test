@@ -1,0 +1,177 @@
+/*
+* name: Mobile && SmallScreen StyleSheet
+* version: v1.1.0
+* update: 尺寸细分代替横竖屏
+* date: 2015-08-10
+*/
+
+/* <640 */
+/*top*/
+.top{ border-bottom:1px solid #ddd; padding-bottom:20px;}
+.top-lan{ float:left; margin-right:0; }
+.top-search .tse-inp{ width:100px;}
+.mobile-nav{ display:none; }
+.mobile-nav .nav_layer ._img {display:none;}
+.mobile_key{ display:block; position:absolute; top:15px; right:0px; font-size:30px; }
+.mm-opened .top{ z-index:30;}
+
+/*banner*/
+.banner .arrs{ top:65%; }
+
+/*首页*/
+.banner{ height:0; padding-bottom:46%;}
+.banner img{ width:100%; height:auto; margin:0; position:static;}
+.banner .slide_nav{ bottom:10px;}
+.ipro{ margin-top:20px; height:auto;}
+.ipro-list li{ width:25%;}
+.ilant{ width:100%; padding-left:0; background:none !important;}
+.inews{ width:100%; margin-bottom:30px; }
+.ivideo{ width:100%; }
+.inews li a{ background:none;}
+.inews li a:hover{ background:none;}
+.inews li ._date{ width:20%;}
+.inews li ._nr{ float:right; width:76%; margin-left:0;}
+.icxin-list li{ margin-bottom:20px;}
+.icxin-list li ._more{ width:120px;}
+.igongyi-nr { width:90%; padding:0 5% 20px;}
+.igongyi-nr .igy-sum{ width:100%; margin-left:0;}
+.igongyi-nr .igy-sum .igysum-t3{ display:block;}
+
+/*内页*/
+.nmian-left{ width:100%; float:none; margin-bottom:20px;}
+.nmian-right{ width:100%; float:none;}
+.nchan-lant{ height:85px;}
+.nchan-lant ._cn{ padding-top:10px;}
+.chr-top .chr-lant{ float:none;}
+.posi{ float:none; font-size:12px;}
+
+/*新闻列表*/
+.news-hot{ float:none; padding:20px 5%; width:90%;}
+.news-saerch{ float:none; padding:20px 5%; width:90%;}
+.news-list li ._date{ display:none; }
+.news-list li a{ background:none;}
+.news-list li a:hover{ background:none; padding-bottom:0;}
+.news-list li ._nr{ width:100%; margin-left:0;}
+.news-list li ._tools{ font-size:14px;}
+
+/*新闻详细*/
+.widget-newsdetail-2 ._tools{ display:none;}
+.widget-newsdetail-2 ._head ._title{ padding-bottom:10px; }
+
+/*产品*/
+.pro-top ._nr{ width:100%; }
+.pcat-list li{ width:25%; }
+
+/*产品详细*/
+.pdet-top ._img{ width:100%; }
+.pdet-top ._nr{ width:90%; margin-left:0; padding:5%; }
+.pdet-top ._down{ height:75px; }
+/* 产品表格 */
+.pro_table{ font-size:14px;}
+.pro_table th { width:30%;}
+.pro_table td{ width:70%;}
+
+
+/*公益*/
+.gongyi-list li{ margin-bottom:20px; }
+.gongyi-list li ._img{ width:100%; float:left;}
+.gongyi-list li ._nr{ width:100%; margin-left:0; }
+.gongyi-list li ._title{ margin-top:15px; margin-bottom:0; line-height:1.2;}
+
+/*联系我们*/
+.contact-map{ height:200px;}
+.contact-list li ._title{ word-break:normal; overflow:visible; height:auto;}
+.contact-list li ._sum{ height:auto; }
+
+/*关于我们*/
+.about-left{ float:none; width:100%; margin-bottom:20px;}
+.about-video{ float:none; width:100%;}
+.abchan-tag{ display:none;}
+
+/*job*/
+.job-top{ background:none;}
+.job-top li{ width:50%; margin:0;}
+.job-list li ._jobt1{ width:50%;  }
+.job-list li ._jobt2{ display:none; }
+.job-list li ._jobt3{ display:none; }
+.job-list li ._jobt4{ display:none; }
+.job-list li ._jobt5{ width:50%; }
+
+.jdet-list li{ width:98%;}
+.job-content dt{ display:none;}
+.job-content dd{ width:100%; margin-left:0;}
+
+/*发展历程*/
+.widget-history-3-tab .tab_c .his-list ._years{ display:none; }
+.widget-history-3-tab .tab_c .his-list ._nr{ width:100%; float:none; padding-left:0; border-left:none;}
+
+/*企业文化*/
+.culture-tab .tab_b{ display:none;}
+.culture-tab .tab_t{ position:relative !important; top:auto !important; left:auto !important; width:100%; border:1px solid #ddd; margin-bottom:10px; }
+.nadd-luru-m img{ display:block; margin-left:auto; margin-right:auto; }
+.nadd-luru-m span{ color:#e7463c; }
+.dianboShow .icos{ margin:10px auto; }
+
+
+/*留言表单*/
+.message-form li.mes-btn input{ width:120px;}
+
+/*his*/
+.timeline-effect { display: block; }
+.timeline-wrap{ width:100% !important; float:none !important;}
+.border-right{ border-right:none; border-left:3px solid #e7463c;}
+.timeline-effect-img{ display:none;}
+.timeline-effect-text{ width:100%; float:none; text-align:left !important;}
+.timeline-effect-left{ padding-right:0; padding-left:30px; }
+.timeline-detail-left .timeline-blow{ right:auto; left:-20px;}
+.timeline-detail-left{ margin-left:0;}
+.last_item .timeline-wrap{ border-left:3px solid #e7463c;}
+
+/*荣誉*/
+.honor-list li ._date{ display:none;}
+.honor-list li ._title{ width:95%;}
+
+/*成长环境*/
+.czimg-right{ width:100%;}
+.czimg-scroll{ height:auto; margin-top:0;}
+.czimg-scroll li{ width:100%; margin-bottom:20px;}
+.czimg-right .czimg-btn{ display:none;}
+
+/*职业发展*/
+.zhiye01,.zhiye02,.zhiye03{ margin-left:10px;margin-bottom:30px; }
+
+/*job2*/
+.job-tab-key li span{ margin-left:0; margin-bottom:-1px;}
+
+/*国际市场*/
+.newgjscb-right{ float:right; width:100%; }
+.newgjscb-left{ float:left; width:100%;margin-bottom:10px;}
+.newgjscb-text ._border{ height:180px;}
+
+/*绿色发展*/
+.fazhan-list li ._img{ display:none;}
+.fazhan-list li ._nr{ width:100%; padding-top:0;}
+
+/*生产装备*/
+.zhuangbei-left{ width:100%;}
+.zhuangbei-left .abchan-title,.zhuangbei-left .abchan-tag{ font-family:'微软雅黑'; }
+.zhuangbei-left .abchan-tag{ display:block; }
+.zhuangbei-video{ width:100%; margin-top:20px; }
+.zbtab-key li{ width:49% !important;}
+.zbtab-nr ._img{ height:auto; padding-bottom:0;}
+.zbtab-nr ._img img{ display:block;position:static;}
+.zbtab-nr ._cover{ position:relative; right:auto; top:auto; width:90%; padding:0 5% 30px;}
+.zbtab-nr ._sum{ height:auto; }
+
+.newgjscb-text ._border { height:auto; padding-bottom:25px; }
+
+.widget-newslist-7 ._time { width:auto; min-width:0; margin-right:10px; }
+.widget-newslist-7 ._title { width:65%; }
+
+/* <320 */
+@media screen and (max-width: 320px){
+
+
+
+
+}
